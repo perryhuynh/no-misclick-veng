@@ -18,21 +18,13 @@ is still active, leading to wasted runes or even missed damage.
 
 ## Configuration
 
-| Option | Default | Description |
-|--------|---------|-------------|
-| Show blocked message | on | Print a chat message when a recast is blocked |
+- **Show blocked message** (on by default) - print a chat message when a
+  recast is blocked.
 
-## Development
+## Support
 
-All development tools are managed by [mise](https://mise.jdx.dev). Run
-`mise install` to install the locked tool versions.
-
-```
-mise run build   # build + tests
-mise run test    # unit tests
-mise run lint    # checkstyle + PMD
-mise run runelite  # launch a RuneLite dev client with the plugin loaded
-```
+Found a bug or have a feature request? Open an issue on
+[GitHub](https://github.com/perryhuynh/no-misclick-veng/issues).
 
 ## License
 
