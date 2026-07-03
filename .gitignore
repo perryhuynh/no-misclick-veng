@@ -7,3 +7,14 @@ build
 nbactions.xml
 nb-configuration.xml
 nbproject/
+# eclipse/jdtls
+bin/
+.factorypath
+.vscode/
+
+# JVM crash logs
+hs_err_pid*.log
+
+# agent scratch — plans/specs stay local, never committed
+.superpowers/
+docs/superpowers/

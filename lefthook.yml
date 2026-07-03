@@ -1,0 +1,13 @@
+commit-msg:
+  commands:
+    conventional:
+      run: |
+        grep -qE '^(feat|fix|docs|chore|refactor|test|ci|build|perf|style|revert)(\(.+\))?!?: .+' {1} ||
+        { echo "commit message must follow Conventional Commits (feat:/fix:/...)"; exit 1; }
+
+pre-commit:
+  commands:
+    test:
+      run: ./gradlew test -q
+    lint:
+      run: mise run lint
