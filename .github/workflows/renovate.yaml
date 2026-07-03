@@ -66,7 +66,7 @@ jobs:
           RENOVATE_INTERNAL_CHECKS_FILTER: strict
           RENOVATE_PLATFORM: github
           RENOVATE_PLATFORM_COMMIT: true
-          RENOVATE_ALLOWED_UNSAFE_EXECUTIONS: '["mise"]'
+          RENOVATE_ALLOWED_UNSAFE_EXECUTIONS: '["mise","gradleWrapper"]'
           RENOVATE_CUSTOM_ENV_VARIABLES: '{"MISE_TRUSTED_CONFIG_PATHS":"/tmp/renovate/repos"}'
         with:
           token: "${{ steps.app-token.outputs.token }}"
