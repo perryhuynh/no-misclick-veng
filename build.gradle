@@ -19,7 +19,7 @@ def runeLiteVersion = '1.12.31.1'
 def pluginMainClass = 'com.nomisclickveng.NoMisclickVengPluginTest'
 
 dependencies {
-	checkstyle 'com.puppycrawl.tools:checkstyle:10.21.2'
+	checkstyle 'com.puppycrawl.tools:checkstyle:13.7.0'
 	pmd 'net.sourceforge.pmd:pmd-ant:7.26.0'
 	pmd 'net.sourceforge.pmd:pmd-java:7.10.0'
 
