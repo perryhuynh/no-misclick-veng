@@ -1,5 +1,7 @@
 plugins {
 	id 'java'
+	id 'checkstyle'
+	id 'pmd'
 }
 
 repositories {
@@ -13,10 +15,14 @@ repositories {
 	mavenCentral()
 }
 
-def runeLiteVersion = 'latest.release'
-def pluginMainClass = 'com.example.ExamplePluginTest'
+def runeLiteVersion = '1.12.31.1'
+def pluginMainClass = 'com.nomisclickveng.NoMisclickVengPluginTest'
 
 dependencies {
+	checkstyle 'com.puppycrawl.tools:checkstyle:10.21.2'
+	pmd 'net.sourceforge.pmd:pmd-ant:7.10.0'
+	pmd 'net.sourceforge.pmd:pmd-java:7.10.0'
+
 	compileOnly group: 'net.runelite', name:'client', version: runeLiteVersion
 
 	compileOnly 'org.projectlombok:lombok:1.18.30'
@@ -27,7 +33,18 @@ dependencies {
 	testImplementation group: 'net.runelite', name:'jshell', version: runeLiteVersion
 }
 
-group = 'com.example'
+group = 'com.nomisclickveng'
+
+checkstyle {
+	configFile = file('config/checkstyle/checkstyle.xml')
+	maxWarnings = 0
+}
+
+pmd {
+	ruleSetFiles = files('config/pmd/pmd-ruleset.xml')
+	ruleSets = []
+	consoleOutput = true
+}
 
 tasks.withType(JavaCompile).configureEach {
 	options.encoding = 'UTF-8'
