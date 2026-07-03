@@ -84,7 +84,7 @@ public class NoMisclickVengPlugin extends Plugin
 			return;
 		}
 
-		if (shouldBlock(event.getParam1(), client.getVarbitValue(VarbitID.VENGEANCE_REBOUND)))
+		if (client.getVarbitValue(VarbitID.VENGEANCE_REBOUND) == 1)
 		{
 			event.consume();
 
@@ -149,11 +149,6 @@ public class NoMisclickVengPlugin extends Plugin
 			w.setOpacity(previousOpacity);
 			previousOpacity = null;
 		}
-	}
-
-	static boolean shouldBlock(int componentId, int vengeanceRebound)
-	{
-		return componentId == InterfaceID.MagicSpellbook.VENGEANCE && vengeanceRebound == 1;
 	}
 
 	@Provides
