@@ -1,0 +1,13 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  packageRules: [
+    {
+      matchDepNames: ["gradle"],
+      allowedVersions: "<9",
+    },
+    {
+      matchDepNames: ["com.puppycrawl.tools:checkstyle"],
+      allowedVersions: "<11",
+    },
+  ],
+}
