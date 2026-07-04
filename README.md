@@ -25,7 +25,3 @@ is still active, leading to wasted runes or even missed damage.
 
 Found a bug or have a feature request? Open an issue on
 [GitHub](https://github.com/perryhuynh/no-misclick-veng/issues).
-
-## License
-
-[WTFPL](LICENSE)
