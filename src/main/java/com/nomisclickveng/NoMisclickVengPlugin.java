@@ -84,7 +84,7 @@ public class NoMisclickVengPlugin extends Plugin
 			return;
 		}
 
-		if (client.getVarbitValue(VarbitID.VENGEANCE_REBOUND) == 1)
+		if (isVengeanceActive())
 		{
 			event.consume();
 
@@ -121,7 +121,12 @@ public class NoMisclickVengPlugin extends Plugin
 
 	private void updateIcon()
 	{
-		dimVengeanceIcon(client.getVarbitValue(VarbitID.VENGEANCE_REBOUND) == 1);
+		dimVengeanceIcon(isVengeanceActive());
+	}
+
+	private boolean isVengeanceActive()
+	{
+		return client.getVarbitValue(VarbitID.VENGEANCE_REBOUND) == 1;
 	}
 
 	private void dimVengeanceIcon(boolean dim)
