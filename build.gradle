@@ -15,7 +15,6 @@ repositories {
 	mavenCentral()
 }
 
-def runeLiteVersion = '1.12.31.1'
 def pluginMainClass = 'com.nomisclickveng.NoMisclickVengPluginTest'
 
 dependencies {
@@ -23,14 +22,14 @@ dependencies {
 	pmd 'net.sourceforge.pmd:pmd-ant:7.26.0'
 	pmd 'net.sourceforge.pmd:pmd-java:7.26.0'
 
-	compileOnly group: 'net.runelite', name:'client', version: runeLiteVersion
+	compileOnly 'net.runelite:client:1.12.31.1'
 
 	compileOnly 'org.projectlombok:lombok:1.18.46'
 	annotationProcessor 'org.projectlombok:lombok:1.18.46'
 
 	testImplementation 'junit:junit:4.13.2'
-	testImplementation group: 'net.runelite', name:'client', version: runeLiteVersion
-	testImplementation group: 'net.runelite', name:'jshell', version: runeLiteVersion
+	testImplementation 'net.runelite:client:1.12.31.1'
+	testImplementation 'net.runelite:jshell:1.12.31.1'
 }
 
 group = 'com.nomisclickveng'

@@ -3,6 +3,7 @@
   extends: [
     "github>home-operations/renovate-presets#2.1.0",
     "github>perryhuynh/no-misclick-veng//.renovate/allowedVersions.json5",
+    "github>perryhuynh/no-misclick-veng//.renovate/groups.json5",
     ":semanticCommits",
     ":timezone(America/Los_Angeles)",
   ],
