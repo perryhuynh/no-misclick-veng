@@ -2,8 +2,7 @@
  * Copyright (c) 2026, Perry
  * All rights reserved.
  *
- * This work is licensed under the terms of the
- * DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE, Version 2.
+ * This work is licensed under the terms of the BSD 2-Clause License.
  * See the LICENSE file for the full license text.
  */
 package com.nomisclickveng;
