@@ -8,7 +8,10 @@
       "package-name": "no-misclick-veng",
       "release-as": "0.0.1",
       "bump-minor-pre-major": true,
-      "bump-patch-for-minor-pre-major": true
+      "bump-patch-for-minor-pre-major": true,
+      "extra-files": [
+        "runelite-plugin.properties"
+      ]
     }
   }
 }
