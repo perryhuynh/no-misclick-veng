@@ -1,7 +1,7 @@
 [tools]
 java = "temurin-11"
 zizmor = "1.26.1"
-lefthook = "2.1.9"
+lefthook = "2.1.10"
 actionlint = "1.7.12"
 shellcheck = "0.11.0"
 
