@@ -27,7 +27,7 @@ import net.runelite.client.plugins.PluginDescriptor;
 
 @PluginDescriptor(
 	name = "No Misclick Veng",
-	description = "Blocks recasting Vengeance while your current Vengeance is still active",
+	description = "Blocks recasting Vengeance while it is still active",
 	tags = {"vengeance", "lunar", "misclick", "pvm"}
 )
 public class NoMisclickVengPlugin extends Plugin

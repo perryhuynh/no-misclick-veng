@@ -1,19 +1,15 @@
 # No Misclick Veng
 
-RuneLite plugin that blocks recasting Vengeance while your current Vengeance
-is still active.
+Blocks recasting Vengeance while it is still active.
 
-The game stops you from recasting during the 30-second cooldown, but once the
+By default the game stops you from recasting during the 30-second cooldown, but once the
 cooldown expires, it will let you recast while your existing Vengeance
 is still active, leading to wasted runes or even missed damage.
 
 ## Features
 
-- **Blocks wasted recasts** - clicking Vengeance while it is active
-  is consumed client-side. Tracks the real server-synced state (varbit), so it
-  works across spellbook swaps, etc.
-- **Greys out the spell icon** - while Vengeance is active, and restores it the
-  moment it procs.
+- Consumes Vengeance clicks client-side while active
+  and greys out the spell icon until Vengeance procs.
 - Optional chat message when a recast is blocked.
 
 ## Configuration
