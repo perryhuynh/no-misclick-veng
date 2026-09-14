@@ -40,32 +40,32 @@ url = "https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_
 provenance = "github-attestations"
 
 [[tools.java]]
-version = "temurin-11.0.31+11"
+version = "temurin-11.0.32+101"
 backend = "core:java"
 
 [tools.java."platforms.linux-arm64"]
-checksum = "sha256:257f4d39e060658fc2eb89a803ca43b3f337e64e253f2d94ebae1d85c9ef5f69"
-url = "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B11/OpenJDK11U-jdk_aarch64_linux_hotspot_11.0.31_11.tar.gz"
+checksum = "sha256:f27033e6f7523c1b0b2565a78e9c0e0abe5596a854ce00ca04ec1b06ece7a935"
+url = "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_aarch64_linux_hotspot_11.0.32.1_1.tar.gz"
 
 [tools.java."platforms.linux-x64"]
-checksum = "sha256:1e9de64586b519c0a981319489257cabedd9457599f3823424a87c3158fbe939"
-url = "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B11/OpenJDK11U-jdk_x64_linux_hotspot_11.0.31_11.tar.gz"
+checksum = "sha256:5c3f68887c325d36d852ba534303e1f5f1f5cae7d6cc1e951d73e0d8e98a058d"
+url = "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.32.1_1.tar.gz"
 
 [tools.java."platforms.linux-x64-musl"]
-checksum = "sha256:ed06a4b8381786a6e8091c10539856675497d2b821cd2d0200cc5b65f453b982"
-url = "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B11/OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.31_11.tar.gz"
+checksum = "sha256:1dc1d3259fa4ca7a2db43c539a60bfa7fc0ea595f445a71ef36d28120f3094aa"
+url = "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_x64_alpine-linux_hotspot_11.0.32.1_1.tar.gz"
 
 [tools.java."platforms.macos-arm64"]
-checksum = "sha256:e3377bbe07f4396ba03adcfc5f3d71d151d6a7b858abdf1d0dd20ac4d8d709b0"
-url = "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B11/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.31_11.tar.gz"
+checksum = "sha256:c487a1c3a56588b3a32d0d07cdd526bf3d401c4b8422be772ca178bfcd647f3f"
+url = "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.32.1_1.tar.gz"
 
 [tools.java."platforms.macos-x64"]
-checksum = "sha256:e541fa6c6100b6dd6ae0c92c96ae8d97ed4d94ddefb0cd2770dae4772bfc9d9e"
-url = "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B11/OpenJDK11U-jdk_x64_mac_hotspot_11.0.31_11.tar.gz"
+checksum = "sha256:03de26f0d11ec3e6365e0352d9fcfaff447be35a2b2f36ee1ffb6063980343f5"
+url = "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_x64_mac_hotspot_11.0.32.1_1.tar.gz"
 
 [tools.java."platforms.windows-x64"]
-checksum = "sha256:5695bd8fed700acb74e0c13945fc6d7564441a31d345c100b82ee1aac553a6b7"
-url = "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B11/OpenJDK11U-jdk_x64_windows_hotspot_11.0.31_11.zip"
+checksum = "sha256:d5008f02174c1ad21c10407cbf104815cb390ec4c263d53946e8d0507d7a77f9"
+url = "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_x64_windows_hotspot_11.0.32.1_1.zip"
 
 [[tools.lefthook]]
 version = "2.1.12"
