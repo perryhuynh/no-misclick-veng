@@ -9,5 +9,10 @@
       matchDepNames: ["com.puppycrawl.tools:checkstyle"],
       allowedVersions: "<11",
     },
+    {
+      matchDepNames: ["java"],
+      matchDatasources: ["java-version", "adoptium-java"],
+      allowedVersions: "<12",
+    },
   ],
 }
