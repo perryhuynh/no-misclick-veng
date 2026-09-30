@@ -22,14 +22,14 @@ dependencies {
 	pmd 'net.sourceforge.pmd:pmd-ant:7.28.0'
 	pmd 'net.sourceforge.pmd:pmd-java:7.28.0'
 
-	compileOnly 'net.runelite:client:1.13.0'
+	compileOnly 'net.runelite:client:1.13.1'
 
 	compileOnly 'org.projectlombok:lombok:1.18.48'
 	annotationProcessor 'org.projectlombok:lombok:1.18.48'
 
 	testImplementation 'junit:junit:4.13.2'
-	testImplementation 'net.runelite:client:1.13.0'
-	testImplementation 'net.runelite:jshell:1.13.0'
+	testImplementation 'net.runelite:client:1.13.1'
+	testImplementation 'net.runelite:jshell:1.13.1'
 }
 
 group = 'com.nomisclickveng'
