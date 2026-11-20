@@ -40,7 +40,7 @@ url = "https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_
 provenance = "github-attestations"
 
 [[tools.java]]
-version = "temurin-11.0.33+10"
+version = "temurin-11.0.33+100000001"
 backend = "core:java"
 
 [tools.java."platforms.linux-arm64"]
